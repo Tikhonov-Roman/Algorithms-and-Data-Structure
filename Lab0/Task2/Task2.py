@@ -1,4 +1,6 @@
 from time import time
+
+
 start = time()
 with open('input.txt') as f:
     n = int(f.readline())
